@@ -3,6 +3,7 @@ import Header from "./Header";
 import { useSelector } from "react-redux";
 import currencyFormatter from "currency-formatter";
 import { Link } from "react-router-dom";
+
 const Home = () => {
   const { products } = useSelector((state) => state.ProductsReducer);
   return (
